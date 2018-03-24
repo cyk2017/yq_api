@@ -1,0 +1,47 @@
+#发送邮件配置
+email: 
+    on_off: 'off'
+    user: 18316446809@163.com
+    password: cyk435544209cyk
+    host: smtp.163.com
+    #支持传入多个收件人
+    receivers: 435544209@qq.com
+    subject: 邮箱标题
+    contens: 邮件内容
+
+#mysql数据库配置
+db: 
+    localhost: 192.168.91.163
+    db_user: jc_observer
+    db_password: jc_observer
+    test_db: jc_observer
+    
+#http设置
+scheme: http
+host: app-daily.ttyingqiu.com
+timeout: 10.0
+#用户信息设置
+account: qwerty146
+password: trbHwtMf9lvEV6fcOP9EdG+Gj4Atmi6A24s/4ZdnKixomhsttMB8NNUqqIdkw8etwPmUGkUOVrjuCgUR4xy1cWXJXyAoTLVkrWYoWETl4AtZ6onTFwNeu7Dg/dROU8T2qGZyzg4Y5OChNSYHCn0LbTZiCaYN5YpI9utogGxWYWQ=
+
+#设置params
+params:
+    agentId: '2335034'
+    appVersion: '4.9.0'
+    platform: win32
+    version: 
+#设置headers
+headers: 
+    Accept: application/json, text/plain, */*
+    Accept-Encoding: gzip, deflate, br
+    Accept-Language: zh-CN,zh;q=0.9
+    User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    deviceUuid: '123456'
+
+#log配置
+log:
+    file_name: login_test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

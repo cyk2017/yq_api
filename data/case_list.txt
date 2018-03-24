@@ -1,0 +1,11 @@
+#user/test_login
+#user/test_wallet_list
+#user/test_money_list
+#user/test_post
+#user/test_plan_check
+#user/test_zixun
+user/test_user_center
+#user/test_plan_center
+#user/test_interpretation_center
+#user/test_follow_info
+#user/test_score_info

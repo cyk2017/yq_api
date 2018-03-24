@@ -1,0 +1,33 @@
+#登录
+login: /api/login/?
+#金币明细
+wallet_list: 
+    7: /api/user/queryHuoyanWalletList/7/1?
+    14: /api/user/queryHuoyanWalletList/14/1?
+    30: /api/user/queryHuoyanWalletList/30/1?
+    90: /api/user/queryHuoyanWalletList/90/1?
+#收益明细
+money_list:
+    7: /api/user/queryMemberMoneyList/7/1?
+    14: /api/user/queryMemberMoneyList/14/1?
+    30: /api/user/queryMemberMoneyList/30/1?
+    90: /api/user/queryMemberMoneyList/90/1?
+#发布帖子
+post: /api/user/jcob/savePost?
+#查询已发布推荐  gameType:玩法；raceTypeId：赛事类别：1竞足赛事，2竞篮赛事，3北单赛事
+plan_check: /api/expertHome/plan/1?
+#资讯地址 templateId:后台配置的资讯模板页id
+zixun: /api/queryInformationHome?
+#资讯详情页
+#用户中心
+user_center: /api/uc/index/?
+#推荐大厅
+plan_center: /api/plan/list/1?
+#解读列表页
+interpretation_center: /api/interpretation/list/1?
+#我的关注
+follow_info: /api/follow/queryFollowInfo?
+#专家、红人主页战绩查询接口
+score_info: /api/formalExpert/scoreInfo/{0}?
+#发布推荐
+new_publish: /api/plan/newPublish?
