@@ -56,7 +56,7 @@ class User_center(TestCase):
         self.logger = self.log.get_logger()
         print(self.case_name + '-测试开始前准备')
 
-    def test_zixun(self):
+    def test_user_center(self):
         # 设置url
         wallet_list = Config(url_file).get('user_center')
         self.url = wallet_list
