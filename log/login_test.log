@@ -1,0 +1,8 @@
+2018-03-26 18:56:50,533 - framework - INFO - ********TEST START********
+2018-03-26 18:56:51,358 - framework - INFO - 查询用户中心 - success:True
+2018-03-26 18:56:51,359 - framework - INFO - *********TEST END*********
+2018-03-26 18:56:51,360 - framework - INFO - Doesn't send report email to developer.
+2018-03-26 19:03:12,197 - framework - INFO - ********TEST START********
+2018-03-26 19:03:12,794 - framework - INFO - 查询用户中心 - success:True
+2018-03-26 19:03:12,797 - framework - INFO - *********TEST END*********
+2018-03-26 19:03:12,798 - framework - INFO - Doesn't send report email to developer.
